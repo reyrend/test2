@@ -47,7 +47,7 @@ async function getResponce1() {
     //let responce = await fetch("https://vmarshirov.github.io/g06u28/030_js/data/0620.json")
     //let responce = await fetch("http://185.182.111.214:7628/tmp/g06u28.txt_api.json")
 //    let responce = await fetch("news.json")
-    let responce = await fetch(str)
+    let responce = await fetch("news.json")
 
     let content = await responce.text()
     console.log(content)
